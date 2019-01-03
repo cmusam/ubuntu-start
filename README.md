@@ -45,9 +45,10 @@ Database: `employees`
 
 Tables: `current_dept_emp, departments, dept_emp, dept_emp_latest_date, dept_manager, employees, salaries, titles`
 ```Bash
+cd ~
 sudo apt-get install mysql-server -y
-
 git clone https://github.com/datacharmer/test_db.git
-sudo mysql -t < test_db/employees.sql
-sudo mysql -t < test_db/test_employees_sha.sql
+cd test_db
+sudo mysql -t < employees.sql
+sudo mysql -t < test_employees_sha.sql
 ```
