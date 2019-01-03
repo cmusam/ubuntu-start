@@ -24,6 +24,7 @@ Sample project https://maven.apache.org/guides/getting-started/maven-in-five-min
 ```Bash
 sudo apt-get install maven -y
 
+cd ~
 mvn archetype:generate \
     -DgroupId=com.mycompany.app \
     -DartifactId=my-app \
@@ -35,7 +36,6 @@ cd my-app
 mvn package
 java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
 mvn exec:java -Dexec.mainClass="com.mycompany.app.App"
-cd ~
 ```
 
 ### MySQL
