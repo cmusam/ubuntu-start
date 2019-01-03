@@ -40,8 +40,10 @@ cd ~
 
 ### MySQL
 Sample database https://dev.mysql.com/doc/employee/en/
+
 Database: `employees`
-Tables: 
+
+Tables: `current_dept_emp, departments, dept_emp, dept_emp_latest_date, dept_manager, employees, salaries, titles`
 ```Bash
 sudo apt-get install mysql-server -y
 
